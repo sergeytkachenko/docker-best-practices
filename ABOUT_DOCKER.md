@@ -11,12 +11,25 @@
     * **Scalable**: You can increase and automatically distribute container replicas across a datacenter.
     * **Secure**: Containers apply aggressive constraints and isolations to processes 
     without any configuration required on the part of the user.
-    * **image** - snapshot private filesystem
-    * **container** - isolation running process with private filesystem
     * Virtual machine have overhead - operation system
     * Docker container runs natively on Linux and shares the kernel, without overhead
-* Dockerfile syntax
-* Docker context ```docker context``` is not a **build context**
+* Terminology
+    * **image** - snapshot private filesystem
+    * **container** - isolation running process with private filesystem
+    * **docker Daemon** - background service
+    * **docker client** - command line tool that allows the user to interact with the daemon
+    * **docker hub** - registry of Docker images
+* Dockerfile commands syntax
+    * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
+    * ```RUN``` ```RUN ls -la .```
+    * ```WORKDIR``` ```WORKDIR /opt/my-app```
+    * ```COPY``` or ```ADD``` ```COPY package.json .```
+    * ```EXPOSE``` ```EXPOSE 80```
+    * ```ENTRYPOINT``` ```ENTRYPOINT dotnet my-app.dll```
+    * ```ENV``` ```ENV DB_PORT 3206```
+    * ```LABEL``` ```LABEL version="1.0"``` - for docker inspect, docker ps
+* Docker **build context**
+    * ```docker context``` is not a **build context**
     * What is context of the docker daemon?
         * File system cache
     * What is the purpose of the Docker build context?
@@ -40,3 +53,7 @@
     * Benchmarks
     * Difference build context
         * ```--mount=type=*```
+
+### Links 
+
+* [Learn docker, step by step](https://docker-curriculum.com/)
