@@ -1,7 +1,7 @@
 # Docker introduction
 
 * Docker concepts
-    * **build, share, and run** applications with containers
+    * **Build, share, and run** applications with containers
     * **Flexible**: Even the most complex applications can be containerized.
     * **Lightweight**: Containers leverage and share the host kernel, 
     making them much more efficient in terms of system resources than virtual machines.
