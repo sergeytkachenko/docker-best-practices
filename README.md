@@ -2,6 +2,12 @@
 
 * Incremental **build time**. **Make build cache** your friend
     * Docker context ```docker context```
+        * What is context of the docker daemon?
+            * **with .git** folder ```Sending build context to Docker daemon 9.58MB```
+            * **without .git** folder ```Sending build context to Docker daemon  4.952MB``` 
+        * from git ```docker build -t gs http://globalsearch.git```
+        * from .tar.gz ```docker build -t gs globalsearch.tar.gz```
+        * from filesystem ```docker build -t gs .```
     * ```.dockerignore```
     * Lifecycle of the cache
         * run
@@ -39,12 +45,13 @@
         * private keys (aws)
         * sh (private repositories) ```docker build --ssh=default```
 * Demo with non-optimized and optimize build
-*  Writing Dockerfile
+* Writing Dockerfile
     * Debug build steps
     * Debug completed image
 
 #### links
 
 * https://www.youtube.com/watch?v=JofsaZ3H1qM
+* https://blog.codeship.com/3-different-ways-to-provide-docker-build-context/
 * https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md
 * https://aboullaite.me/speed-up-your-java-application-images-build-with-buildkit/
