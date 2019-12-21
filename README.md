@@ -1,10 +1,12 @@
 # Docker best practices
 
 * Incremental **build time**. **Make build cache** your friend
-    * .dockerignore
-    * Docker context
+    * Docker context ```docker context```
+    * ```.dockerignore```
     * Lifecycle of the cache
-        * run, add, copy - examples
+        * run
+        * add
+        * copy
 * Reduce image size (pull, push speed in ci/cd)
     * Remove unnecessary dependencies
     * Remove package manager cache
@@ -37,6 +39,9 @@
         * private keys (aws)
         * sh (private repositories) ```docker build --ssh=default```
 * Demo with non-optimized and optimize build
+*  Writing Dockerfile
+    * Debug build steps
+    * Debug completed image
 
 #### links
 
