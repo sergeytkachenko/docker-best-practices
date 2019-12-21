@@ -19,6 +19,7 @@
     * **docker Daemon** - background service
     * **docker client** - command line tool that allows the user to interact with the daemon
     * **docker hub** - registry of Docker images
+* Architecture ![architecture.jpg](architecture.jpg)
 * Dockerfile commands syntax
     * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
     * ```RUN``` ```RUN ls -la .```
