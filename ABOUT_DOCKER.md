@@ -1,5 +1,18 @@
-# Docker
+# Docker introduction
 
+* Docker concepts
+    * **build, share, and run** applications with containers
+    * **Flexible**: Even the most complex applications can be containerized.
+    * **Lightweight**: Containers leverage and share the host kernel, 
+    making them much more efficient in terms of system resources than virtual machines.
+    * **Portable**: You can build locally, deploy to the cloud, and run anywhere.
+    * **Loosely coupled**: Containers are highly self sufficient and encapsulated, 
+    allowing you to replace or upgrade one without disrupting others.
+    * **Scalable**: You can increase and automatically distribute container replicas across a datacenter.
+    * **Secure**: Containers apply aggressive constraints and isolations to processes 
+    without any configuration required on the part of the user.
+    * **image** - private filesystem
+    * **container** - isolation running process with private filesystem
 * Dockerfile syntax
 * Docker context ```docker context``` is not a **build context**
     * What is context of the docker daemon?
