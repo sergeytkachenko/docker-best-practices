@@ -1,18 +1,23 @@
-# Docker best practices
+# Docker best practices (BuildKit)
 
-* Incremental **build time**. **Make build cache** your friend
-    * Docker context ```docker context```
-        * What is context of the docker daemon?
-            * **with .git** folder ```Sending build context to Docker daemon 9.58MB```
-            * **without .git** folder ```Sending build context to Docker daemon  4.952MB``` 
+* Docker context ```docker context``` is not a **build context**
+    * What is context of the docker daemon?
+        * File system cache
+    * What is the purpose of the Docker build context?
+        * Because the client and daemon may not even run on the same machine
+        * ```COPY```, ```ADD``` move files from context to result image 
+    * **with .git** folder ```Sending build context to Docker daemon 9.58MB```
+    * **without .git** folder ```Sending build context to Docker daemon  4.952MB```
+    * Build with different context type 
+        * from filesystem ```docker build -t gs .```
         * from git ```docker build -t gs http://globalsearch.git```
         * from .tar.gz ```docker build -t gs globalsearch.tar.gz```
-        * from filesystem ```docker build -t gs .```
     * ```.dockerignore```
-    * Lifecycle of the cache
-        * run
-        * add
-        * copy
+* Lifecycle of the cache
+    * ```RUN```
+    * ```ADD```
+    * ```COPY```
+* Incremental **build time**. **Make build cache** your friend
 * Reduce image size (pull, push speed in ci/cd)
     * Remove unnecessary dependencies
     * Remove package manager cache
