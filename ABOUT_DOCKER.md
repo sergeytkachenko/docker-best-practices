@@ -46,6 +46,8 @@
         * from git ```docker build -t gs http://globalsearch.git```
         * from .tar.gz ```docker build -t gs globalsearch.tar.gz```
     * ```.dockerignore```
+    * **Warning**: Do not use your root directory, ```/```, as the ```PATH``` as it causes the build
+     to transfer the entire contents of your hard drive to the Docker daemon.
 * Cache 
     * Lifecycle of the cache
         * ```RUN```
