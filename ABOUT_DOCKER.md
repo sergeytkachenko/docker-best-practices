@@ -11,8 +11,10 @@
     * **Scalable**: You can increase and automatically distribute container replicas across a datacenter.
     * **Secure**: Containers apply aggressive constraints and isolations to processes 
     without any configuration required on the part of the user.
-    * **image** - private filesystem
+    * **image** - snapshot private filesystem
     * **container** - isolation running process with private filesystem
+    * Virtual machine have overhead - operation system
+    * Docker container runs natively on Linux and shares the kernel, without overhead
 * Dockerfile syntax
 * Docker context ```docker context``` is not a **build context**
     * What is context of the docker daemon?
