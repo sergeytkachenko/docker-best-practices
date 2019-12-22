@@ -14,8 +14,8 @@
     * Virtual machine have overhead - operation system
     * Docker container runs natively on Linux and shares the kernel, without overhead
 * Terminology
-    * **image** - snapshot private filesystem
-    * **container** - isolation running process with private filesystem
+    * **image** - **immutable** snapshot private filesystem
+    * **container** - isolation running process, networking with private filesystem
     * **docker daemon** - background service
     * **docker client** - command line tool that allows the user to interact with the daemon
     * **Dockerfile**
