@@ -64,3 +64,4 @@
 ### Links 
 
 * [Learn docker, step by step](https://docker-curriculum.com/)
+* [container and lightweight virtualization](https://www.slideshare.net/janghoonsim/docker-container-and-lightweight-virtualization)
