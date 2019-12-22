@@ -16,8 +16,9 @@
 * Terminology
     * **image** - snapshot private filesystem
     * **container** - isolation running process with private filesystem
-    * **docker Daemon** - background service
+    * **docker daemon** - background service
     * **docker client** - command line tool that allows the user to interact with the daemon
+    * **Dockerfile**
     * **docker hub** - registry of Docker images
 * Architecture
 
