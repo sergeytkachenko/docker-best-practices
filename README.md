@@ -1,7 +1,7 @@
 ## Docker introduction
 
 * Where we [use](WE_USE_DOCKER_IN.md) docker
-* See [Docker introduction](ABOUT_DOCKER.md)
+* See Docker [introduction](ABOUT_DOCKER.md)
 
 ## Docker best practices
 
