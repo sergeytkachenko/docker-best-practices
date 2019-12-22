@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 . Docker/linux/default-env
 
@@ -139,4 +138,3 @@ sh Docker/worker-single/run.sh
 sh Docker/worker-single-replay/run.sh
 sh Docker/worker-single-task/run.sh
 sh Docker/worker-queried-single-task/run.sh
-```

@@ -1,0 +1,1 @@
+docker build --no-cache -f Docker/elasticsearch/dockerfile -t elasticsearch .

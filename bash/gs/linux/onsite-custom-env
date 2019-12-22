@@ -1,0 +1,25 @@
+export GS_WORKER_DB_CONNECTION_STRING_PATTERN="Server=[DBServerName]; Database=[DBName]; User Id=[DBLogin]; Password=[DBPassword]; Connection Timeout=10"
+
+export GS_DB_CONNECTION_STRING="database=gs;server=gs-mysql;user id=$MYSQL_USER; pwd=$MYSQL_PASSWORD; SslMode=none"
+
+export RUN_RABBITMQ=1
+export RUN_ELASTICSEARCH=1
+export RUN_MYSQL=1
+export RUN_REDIS=1
+
+export GS_ES_URL="http://elasticsearch:9200"
+export GS_PUBLIC_ES_URL="http://[external.elasticSearchHostName]:9200"
+export GS_ES_LOGIN=""
+export GS_ES_PASSWORD=""
+
+export GS_RABBITMQ_AMQP="amqp://gs:gs@rabbitmq:5672/"
+
+export GS_REDIS_CONNECTION_STRING="redis://gs-redis:6379?db=1&maxReadPoolSize=25&maxWritePoolSize=25"
+
+export GS_DB_BATCH_SIZE="2000"
+export GS_DB_INCREMENT_DAYS="500"
+export GS_DB_FILL_QUEUE_INTERVAL="30000"
+
+export CLEAR_ELASTICSEARCH_DATA=0
+export CLEAR_RABBITMQ_DATA=0
+export CLEAR_MYSQL_DATA=0

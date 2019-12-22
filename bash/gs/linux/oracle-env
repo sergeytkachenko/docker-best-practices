@@ -1,0 +1,2 @@
+export GS_WORKER_DB_DIALECT_PROVIDER="Cloud.OrmLite.Oracle.OracleOrmLiteDialect, Cloud.OrmLite.Oracle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" 
+export GS_WORKER_DB_CONNECTION_STRING_PATTERN="Data Source=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = [HostName])(PORT = 1521))) (CONNECT_DATA = (SERVICE_NAME = BPMBUILD) (SERVER = DEDICATED)));User Id=[DBLogin];Password=[DBPassword]"

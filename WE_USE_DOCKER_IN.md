@@ -1,7 +1,7 @@
 # Where we use docker 
 
 * Global search
-	* Run with bash [scripts](bash/run-gs.md)
+	* Run with bash [scripts](bash/gs)
 		* rabbitmq
 		* elasticsearch
 		* mysql

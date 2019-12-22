@@ -1,0 +1,18 @@
+FROM gs-worker-host AS worker-host
+
+FROM microsoft/dotnet:2.1-sdk AS build
+COPY . /src
+WORKDIR /src/Src/GlobalSearch.Worker.Replay.Executor
+
+RUN dotnet publish -c Release -o /tmp/app
+
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS final
+
+WORKDIR /app
+
+COPY --from=worker-host /app .
+COPY --from=build /tmp/app .
+COPY --from=build /src/Src/GlobalSearch.Worker.Replay.Executor/appsettings.json .
+COPY --from=build /src/Src/GlobalSearch.Worker.Replay.Executor/log4net.debug.config .
+
+ENTRYPOINT ["dotnet", "Cloud.WorkerHost.dll"]
