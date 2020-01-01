@@ -1,2 +1,0 @@
-export GS_WORKER_DB_DIALECT_PROVIDER="ServiceStack.OrmLite.PostgreSqlDialect, ServiceStack.OrmLite.PostgreSQL, Culture=neutral, PublicKeyToken=null"
-export GS_WORKER_DB_CONNECTION_STRING_PATTERN="User ID=[USER];Password=[PASSWORD];Server=[SERVER];Port=5432;Database=[DB_NAME];Pooling=true;MinPoolSize=0;MaxPoolSize=200"

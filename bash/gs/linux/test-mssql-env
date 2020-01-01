@@ -1,5 +1,0 @@
-export RUN_ELASTICSEARCH=0
-export RUN_MYSQL=0
-export GS_DATACENTER_NAME="az2"
-export GS_WORKER_DB_CONNECTION_STRING_PATTERN="Server={0}; Database={1}; User Id=gs; Password=!Prisoner31!; Connection Timeout=10"
-export GS_ES_URL="http://10.0.14.145:9200"
