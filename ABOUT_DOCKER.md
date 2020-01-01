@@ -56,7 +56,7 @@
 * Docker **cache** 
     * Lifecycle of the cache
         * ```ADD```, ```COPY``` - trigger calculate hash sum of the files in the build context (ignore date modified)  
-        * ```RUN``` - not checking files in the image container, like ```RUN apt-get -y update```
+        * ```RUN``` - not checking files in the image container, like ```RUN apt-get -y update``` [demo](examples/cache/Dockerfile)
 * Docker run container
     * binding ports ```docker run -d -p 8000:80 nginx```
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
