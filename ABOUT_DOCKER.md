@@ -19,11 +19,15 @@
     * **docker daemon** - background service
     * **docker client** - command line tool that allows the user to interact with the daemon
     * **Dockerfile**
-    * **docker hub** - registry of Docker images
-* Architecture
+    * **docker hub** - default registry of Docker images
+* Docker **architecture**
 
 ![architecture.jpg](architecture.jpg)
-
+    
+    * Daemon (docker host, cgroups, namespaces)
+    * CLI
+    * Registry (storage of the images)
+    
 * Dockerfile commands syntax
     * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
     * ```RUN``` ```RUN ls -la .```
@@ -49,13 +53,17 @@
     * ```.dockerignore```
     * **Warning**: Do not use your root directory, ```/```, as the ```PATH``` as it causes the build
      to transfer the entire contents of your hard drive to the Docker daemon.
-* Cache 
+* Docker **cache** 
     * Lifecycle of the cache
-        * ```RUN```
-        * ```ADD```
-        * ```COPY```
+        * ```ADD```, ```COPY``` - trigger calculate hash sum of the files in the build context (ignore date modified)  
+        * ```RUN``` - not checking files in the image container, like ```RUN apt-get -y update```
+* Docker run container
+    * binding ports ```docker run -d -p 8000:80 nginx```
+    * binding volumes ```docker run -d -v /tmp:/var/www nginx```
+    * links ```docker run --link myredis:redis debian env```
 * Debugging build steps of the Dockerfile
-* Debug running container or pulled image
+    * ```docker run -it 7831e2ca1809```
+* Debug running container 
 * BuildKit
     * Benchmarks
     * Difference build context
@@ -65,3 +73,4 @@
 
 * [Learn docker, step by step](https://docker-curriculum.com/)
 * [container and lightweight virtualization](https://www.slideshare.net/janghoonsim/docker-container-and-lightweight-virtualization)
+* [Основы Docker](http://onreader.mdl.ru/UsingDocker/content/Ch04.html)
