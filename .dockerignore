@@ -1,5 +1,6 @@
 .git
 .idea
+**/.gitignore
 **/.DS_Store
 **/Dockerfile
 .dockerignore
