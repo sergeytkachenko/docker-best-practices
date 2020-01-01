@@ -50,13 +50,16 @@
         * from filesystem ```docker build -t gs .```
         * from git ```docker build -t gs http://globalsearch.git```
         * from .tar.gz ```docker build -t gs globalsearch.tar.gz```
-    * ```.dockerignore```
+    * ```.dockerignore``` - ignoring files that sending to build context
     * **Warning**: Do not use your root directory, ```/```, as the ```PATH``` as it causes the build
      to transfer the entire contents of your hard drive to the Docker daemon.
 * Docker **cache** 
     * Lifecycle of the cache
         * ```ADD```, ```COPY``` - trigger calculate hash sum of the files in the build context (ignore date modified)  
         * ```RUN``` - not checking files in the image container, like ```RUN apt-get -y update``` [demo](examples/cache/Dockerfile)
+    * .dockerignore
+        * **be careful** - always exclude ```.git``` ```.idea```, ```.DS_Store``` of mac os, etc.
+        * [demo](.dockerignore)
 * Docker run container
     * binding ports ```docker run -d -p 8000:80 nginx```
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
