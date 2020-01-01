@@ -59,7 +59,7 @@
         * ```RUN``` - not checking files in the image container, like ```RUN apt-get -y update``` [demo](examples/cache/Dockerfile)
     * .dockerignore
         * **be careful** - always exclude ```.git``` ```.idea```, ```.DS_Store``` of mac os, etc.
-        * [demo](.dockerignore)
+        * [demo - exclude .DS_Store](.dockerignore)
 * Docker run container
     * binding ports ```docker run -d -p 8000:80 nginx```
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
