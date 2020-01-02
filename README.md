@@ -17,7 +17,7 @@
 * Look for minimal flavors of image tag
 * Reproducibility
     * Build from source in a consistent environment
-* Various environments: build, dev, test, lint, …
+* Various [environments](https://github.com/docker/cli/tree/master/dockerfiles): build, dev, test, lint, …
     * builder: all build dependencies
     * build (or binary): builder + build artifacts
     * cross: same as build but for multiple platforms
