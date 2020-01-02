@@ -65,6 +65,7 @@
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
     * links ```docker run --link myredis:redis debian env```
 * Docker network
+    * ```docker network ls``` ```docker network inspect ...```
 * Debugging build steps of the Dockerfile
     * ```docker run -it 7831e2ca1809```
 * Debug running container 
