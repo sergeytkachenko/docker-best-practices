@@ -66,6 +66,7 @@
     * links ```docker run --link myredis:redis debian env```
 * Docker network
     * ```docker network ls``` ```docker network inspect ...```
+    * ```traceroute 8.8.8.8```
 * Debugging build steps of the Dockerfile
     * ```docker run -it 7831e2ca1809```
 * Debug running container 
