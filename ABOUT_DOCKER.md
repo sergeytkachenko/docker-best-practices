@@ -80,3 +80,4 @@
 * [Learn docker, step by step](https://docker-curriculum.com/)
 * [container and lightweight virtualization](https://www.slideshare.net/janghoonsim/docker-container-and-lightweight-virtualization)
 * [Основы Docker](http://onreader.mdl.ru/UsingDocker/content/Ch04.html)
+* [docker labs](https://github.com/docker/labs)
