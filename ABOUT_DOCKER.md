@@ -32,12 +32,25 @@
     * In six months, Docker open source repo received 6.7K+ stars on GitHub and 175 contributors
     * In September 2013 dotCloud renamed to **Docker Inc.**
     * Docker 1.0 was announced in June 2014
+    * At the same time, Docker started moving towards being a complete platform
+---
+
+* **Docker history** -> The collaboration
+
+    * Red Hat company joined to Docker project in September 2013 and using him in [OpenShift](https://www.openshift.com/) project
+    * Google, Amazon and DigitalOcean quickly offered Docker support in their clouds
+    * In October 2014, Microsoft announced that future versions of Windows Server would support Docker
+    * In December 2014, DockerCon EU saw the announcement of Docker Swarm and Docker Machine
+    * In December 2014, CoreOS announced the development of rkt, its own container support tool and
+    developing the appc container specification **appc**
+    * In July 2015, on DockerCon in San Francisco, Solomon Hakes from Docker and Alex Polvy from CoreOS announced
+     [OCI](https://www.opencontainers.org/)
 ---
 
 * **Docker history** -> Docker today
 
     * Docker code writing in Golang - programming language from Google
-    * Open container initiative **OCI**. Born in a competition of standards between 
+    * Open container initiative [OCI](https://www.opencontainers.org/). Born in a competition of standards between 
     Docker Inc and [CoreOs](https://en.wikipedia.org/wiki/Container_Linux)
         * The [image](https://github.com/opencontainers/image-spec) spec
         * The [runtime](https://github.com/opencontainers/runtime-spec) spec
