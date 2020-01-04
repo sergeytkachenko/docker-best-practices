@@ -1,0 +1,14 @@
+{
+  "name": "ppt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ppt.js",
+  "scripts": {
+    "run": "node ppt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}

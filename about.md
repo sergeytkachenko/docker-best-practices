@@ -13,6 +13,8 @@
     without any configuration required on the part of the user.
     * Virtual machine have overhead - operation system
     * Docker container runs natively on Linux and shares the kernel, without overhead
+---
+
 * Terminology
     * **image** - **immutable** snapshot private filesystem
     * **container** - isolation running process, networking with private filesystem
@@ -20,15 +22,19 @@
     * **docker client** - command line tool that allows the user to interact with the daemon
     * **Dockerfile**
     * **docker hub** - default registry of Docker images
+---
+    
 * Docker **architecture**
 
-![architecture.jpg](architecture.jpg)
+![architecture.jpg](./architecture.jpg)
     
     * Daemon (docker host, cgroups, namespaces)
     * CLI
     * Registry (storage of the images)
+---
     
 * Dockerfile commands syntax
+
     * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
     * ```RUN``` ```RUN ls -la .```
     * ```WORKDIR``` ```WORKDIR /opt/my-app```
@@ -37,7 +43,10 @@
     * ```ENTRYPOINT``` ```ENTRYPOINT dotnet my-app.dll```
     * ```ENV``` ```ENV DB_PORT 3206```
     * ```LABEL``` ```LABEL version="1.0"``` - for docker inspect, docker ps
+---
+
 * Docker **build context**
+
     * ```docker context``` is not a **build context**
     * What is context of the docker daemon?
         * File system cache
@@ -53,6 +62,8 @@
     * ```.dockerignore``` - ignoring files that sending to build context
     * **Warning**: Do not use your root directory, ```/```, as the ```PATH``` as it causes the build
      to transfer the entire contents of your hard drive to the Docker daemon.
+---
+
 * Docker **cache** 
     * Lifecycle of the cache
         * ```ADD```, ```COPY``` - trigger calculate hash sum of the files in the build context (ignore date modified)  
@@ -60,20 +71,31 @@
     * .dockerignore
         * **be careful** - always exclude ```.git``` ```.idea```, ```.DS_Store``` of mac os, etc.
         * [demo - exclude .DS_Store](.dockerignore)
+---
+
 * Docker run container
     * binding ports ```docker run -d -p 8000:80 nginx```
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
     * links ```docker run --link myredis:redis debian env```
+---
+
 * Docker network
     * ```docker network ls``` ```docker network inspect ...```
     * ```traceroute 8.8.8.8```
+---
+
 * Debugging build steps of the Dockerfile
     * ```docker run -it 7831e2ca1809```
+---
+
 * Debug running container 
+---
+
 * BuildKit
     * Benchmarks
     * Difference build context
         * ```--mount=type=*```
+---
 
 ### Links 
 
