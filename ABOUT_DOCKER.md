@@ -63,15 +63,7 @@ Signatures for bombascter/docker-intro-ppt:latest
 SIGNED TAG          DIGEST                          SIGNERS
 latest              3c273c3be36514a4af2bf54955...   bombascter
 
-List of signers and their keys for bombascter/docker-intro-ppt:latest
-
-SIGNER              KEYS
-bombascter          343a9ec39c74
-
-Administrative keys for bombascter/docker-intro-ppt:latest
-
-  Repository Key:	5e383fe0d79f2ee150e5822c56...
-  Root Key:	e156e14832c094b7ff50c07e713f552ef4...
+......
 ```
 ---
 
