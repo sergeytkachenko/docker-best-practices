@@ -77,9 +77,9 @@ latest              3c273c3be36514a4af2bf54955...   bombascter
         * The [distribution](https://github.com/opencontainers/distribution-spec) spec
     * Starting from version 1.11 the Docker conforms to the OCI runtime spec
     * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
-    * Today Docker Inc has somewhere in the region 300-400 employers
-    * Today [moby](https://github.com/moby/moby) have 56K+ stars on GitHub
-    * Today [docker-ce](https://github.com/docker/docker-ce) have 3.8K+ stars on GitHub
+    * Docker Inc has somewhere in the region 300-400 employers
+    * [moby](https://github.com/moby/moby) have 56K+ stars on GitHub
+    * [docker-ce](https://github.com/docker/docker-ce) have 3.8K+ stars on GitHub
 ---
 
 * Docker **concepts**
