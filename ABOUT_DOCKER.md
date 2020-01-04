@@ -13,8 +13,12 @@
         * kernel namespaces
         * control groups
         * union filesystems
-    * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud**
-    * In 2013  dotCloud renamed to **Docker Inc.**
+    * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
+    * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
+    * In March 2013 dotCloud opened source codes
+    * In six months, Docker open source repo received 6,700 stars on GitHub and 175 contributors
+    * In September 2013 dotCloud renamed to **Docker Inc.**
+    * Docker 1.0 was announced in June 2014
 ---
 
 * Docker today
