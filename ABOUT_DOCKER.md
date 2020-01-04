@@ -7,7 +7,7 @@
 * Docker concepts
     * **Lightweight**: Containers leverage and share the host kernel, 
     making them much more efficient in terms of system resources than virtual machines.
-        * Virtual machine have overhead - operation system. Run slowly. Operating system license required
+        * Virtual machine have overhead - operation system. Run slowly. Have big image size. Operating system license required
         * Docker container runs natively on Linux and shares the kernel, without overhead. Very fast and ultra-portable
     * **Build, share, and run** applications with containers
     * **Flexible**: Even the most complex applications can be containerized.
