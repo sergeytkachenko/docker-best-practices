@@ -4,7 +4,7 @@
   "description": "",
   "main": "ppt.js",
   "scripts": {
-    "run": "node ppt.js"
+    "start": "node ppt.js"
   },
   "author": "",
   "license": "ISC",

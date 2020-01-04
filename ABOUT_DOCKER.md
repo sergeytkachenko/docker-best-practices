@@ -26,7 +26,7 @@
     
 * Docker **architecture**
 
-![architecture.jpg](./architecture.jpg)
+![architecture.jpg](img/architecture.jpg)
     
     * Daemon (docker host, cgroups, namespaces)
     * CLI
