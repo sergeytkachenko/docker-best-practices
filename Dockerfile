@@ -9,5 +9,6 @@ COPY DOCKER_README.md ABOUT_DOCKER.md WHERE_USING_DOCKER.md ./
 COPY examples examples
 COPY img img
 
-ENTRYPOINT node ppt.js
+EXPOSE 8080
+CMD [ "node", "ppt.js" ]
 
