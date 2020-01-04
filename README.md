@@ -18,7 +18,8 @@ npm run start
 #### Build 
 
 ```bash
-docker -f Dockerfile build -t bombascter/docker-intro-ppt .
+docker build -f Dockerfile -t bombascter/docker-intro-ppt .
+docker push bombascter/docker-intro-ppt
 # open http://localhost
 ```
 
