@@ -15,14 +15,19 @@
         * union filesystems
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud**
     * In 2013  dotCloud renamed to **Docker Inc.**
-    * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
-    * Today Docker Inc has somewhere in the region 3000-400 employers
-    * Code writing in Golang - programming language from Google
+---
+
+* Docker today
+
+    * Docker code writing in Golang - programming language from Google
     * Open container initiative **OCI**. Born in a competition of standards between 
     Docker Inc and [CoreOs](https://en.wikipedia.org/wiki/Container_Linux)
         * The [image](https://github.com/opencontainers/image-spec) spec
         * The [runtime](https://github.com/opencontainers/runtime-spec) spec
         * The [distribution](https://github.com/opencontainers/distribution-spec) spec
+    * Starting from version 1.11 the Docker conforms to the OCI runtime spec
+    * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
+    * Today Docker Inc has somewhere in the region 3000-400 employers
 ---
 
 * Docker **concepts**
