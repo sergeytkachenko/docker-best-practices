@@ -29,10 +29,13 @@ ___
 ---
     
 * Docker **architecture**
-
 ![architecture.jpg](img/architecture.jpg)
     
     * Daemon (docker engine: cgroups, namespaces, capabilities, netlink, selinux, apparmor)
+        * [Linux Containers LXC](https://en.wikipedia.org/wiki/LXC)
+        * libcontainer
+        * runc
+        * containerd
     * CLI
     * Registry (storage of the images)
 ---
@@ -106,4 +109,6 @@ ___
 * [Learn docker, step by step](https://docker-curriculum.com/)
 * [container and lightweight virtualization](https://www.slideshare.net/janghoonsim/docker-container-and-lightweight-virtualization)
 * [Основы Docker](http://onreader.mdl.ru/UsingDocker/content/Ch04.html)
-* [docker labs](https://github.com/docker/labs)
+* [Docker labs](https://github.com/docker/labs)
+* [Docker conf 14](https://www.youtube.com/watch?v=_DOXBVrlW78)
+* [Difference between LXC and libcontainer](https://stackoverflow.com/questions/34152365/difference-between-lxc-and-libcontainer)
