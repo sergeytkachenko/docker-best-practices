@@ -41,10 +41,12 @@
     * Google, Amazon and DigitalOcean quickly offered Docker support in their clouds
     * In October 2014, Microsoft announced that future versions of Windows Server would support Docker
     * In December 2014, DockerCon EU saw the announcement of Docker Swarm and Docker Machine
-    * In December 2014, CoreOS announced the development of rkt, its own container support tool and
+    * In December 2014, CoreOS announced the development of [rkt](https://coreos.com/rkt/), its own container support tool and
     developing the appc container specification **appc**
     * In July 2015, on DockerCon in San Francisco, Solomon Hakes from Docker and Alex Polvy from CoreOS announced
      [OCI](https://www.opencontainers.org/)
+    * In July 2015 FreeBSD announces Docker supported by FreeBSD using ZFS
+    * In August 2015 Docker and Microsoft have released the Docker Engine "technical preview" for Windows Server
 ---
 
 * **Docker history** -> Docker today
