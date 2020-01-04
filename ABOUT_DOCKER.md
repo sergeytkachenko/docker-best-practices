@@ -5,18 +5,19 @@
 ---
 
 * Docker concepts
-    * **Build, share, and run** applications with containers
-    * **Flexible**: Even the most complex applications can be containerized.
     * **Lightweight**: Containers leverage and share the host kernel, 
     making them much more efficient in terms of system resources than virtual machines.
+        * Virtual machine have overhead - operation system. Run slowly. Operating system license required
+        * Docker container runs natively on Linux and shares the kernel, without overhead. Very fast and ultra-portable
+    * **Build, share, and run** applications with containers
+    * **Flexible**: Even the most complex applications can be containerized.
     * **Portable**: You can build locally, deploy to the cloud, and run anywhere.
     * **Loosely coupled**: Containers are highly self sufficient and encapsulated, 
     allowing you to replace or upgrade one without disrupting others.
     * **Scalable**: You can increase and automatically distribute container replicas across a datacenter.
     * **Secure**: Containers apply aggressive constraints and isolations to processes 
     without any configuration required on the part of the user.
-    * Virtual machine have overhead - operation system
-    * Docker container runs natively on Linux and shares the kernel, without overhead
+
 ---
 
 * Terminology
