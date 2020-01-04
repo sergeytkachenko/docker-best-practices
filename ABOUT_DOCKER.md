@@ -1,5 +1,7 @@
 # Docker introduction
 
+![trands.jpg](img/trands.jpg)
+
 ---
 
 * **Docker history**
