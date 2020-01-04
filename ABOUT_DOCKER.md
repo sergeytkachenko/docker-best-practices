@@ -54,7 +54,6 @@
     * In November 2015, birth Docker Content Trust (DCT) technology ```docker trust```
 
 ```bash
-root@k8s:~# export DOCKER_CONTENT_TRUST=1
 root@k8s:~# docker trust sign bombascter/docker-intro-ppt:latest
 root@k8s:~# docker push bombascter/docker-intro-ppt:latest
 root@k8s:~# docker trust inspect --pretty bombascter/docker-intro-ppt:latest
