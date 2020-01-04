@@ -18,7 +18,7 @@
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
     * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
     * In March 2013 dotCloud opened source codes
-    * In six months, Docker open source repo received 6,700 stars on GitHub and 175 contributors
+    * In six months, Docker open source repo received 6.7K+ stars on GitHub and 175 contributors
     * In September 2013 dotCloud renamed to **Docker Inc.**
     * Docker 1.0 was announced in June 2014
 ---
@@ -34,6 +34,8 @@
     * Starting from version 1.11 the Docker conforms to the OCI runtime spec
     * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
     * Today Docker Inc has somewhere in the region 3000-400 employers
+    * Today [moby](https://github.com/moby/moby) have 56K+ stars on GitHub
+    * Today [docker-ce](https://github.com/docker/docker-ce) have 3.8K+ stars on GitHub
 ---
 
 * Docker **concepts**
