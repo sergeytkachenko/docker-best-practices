@@ -80,8 +80,8 @@ latest              3c273c3be36514a4af2bf54955...   bombascter
     * Starting from version 1.11 the Docker conforms to the OCI runtime spec
     * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
     * Docker Inc has somewhere in the region 300-400 employers
-    * The project [moby](https://github.com/moby/moby) have 56K+ stars on GitHub
-    * The project [docker-ce](https://github.com/docker/docker-ce) have 3.8K+ stars on GitHub
+    * The project [moby](https://github.com/moby/moby) have 56K+ stars on GitHub and 1.8K+ contributors
+    * The project [docker-ce](https://github.com/docker/docker-ce) have 3.8K+ stars on GitHub and 2K+ contributors
 ---
 
 * Docker **concepts**
