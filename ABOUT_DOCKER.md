@@ -2,7 +2,7 @@
 
 ---
 
-* Docker history
+* **Docker history**
     
     * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
      who loads and unloads cargo from ships
@@ -17,7 +17,14 @@
         * union filesystems
 ---
 
-* The birth of Docker
+* **Docker history** -> The creator Docker
+
+    ![solomon-hykes-wife.jpg](img/solomon-hykes-wife.jpg)
+---
+
+* **Docker history** -> The birth of Docker
+
+    ![solomon-hykes.jpg](img/solomon-hykes.jpg)
 
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
     * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
@@ -27,7 +34,7 @@
     * Docker 1.0 was announced in June 2014
 ---
 
-* Docker today
+* **Docker history** -> Docker today
 
     * Docker code writing in Golang - programming language from Google
     * Open container initiative **OCI**. Born in a competition of standards between 
