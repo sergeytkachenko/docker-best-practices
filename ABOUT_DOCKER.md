@@ -98,6 +98,18 @@
 * Debug **running container**
 ---
 
+* Docker app
+
+---
+
+* Docker swarm
+
+---
+
+* Docker compose
+
+---
+
 * **BuildKit**
     * Benchmarks
     * Difference build context
