@@ -1,5 +1,9 @@
 # Docker introduction
 
+* Docker history
+    * 
+___
+
 * Docker concepts
     * **Build, share, and run** applications with containers
     * **Flexible**: Even the most complex applications can be containerized.
@@ -28,7 +32,7 @@
 
 ![architecture.jpg](img/architecture.jpg)
     
-    * Daemon (docker host, cgroups, namespaces)
+    * Daemon (docker engine: cgroups, namespaces, capabilities, netlink, selinux, apparmor)
     * CLI
     * Registry (storage of the images)
 ---
