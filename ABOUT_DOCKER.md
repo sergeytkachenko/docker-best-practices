@@ -1,6 +1,6 @@
 # Docker introduction
 
-![trands.jpg](img/trands.jpg)
+![trands.png](img/trands.png)
 
 ---
 
