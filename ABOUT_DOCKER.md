@@ -49,6 +49,33 @@
     * In August 2015 Docker and Microsoft have released the Docker Engine "technical preview" for Windows Server
 ---
 
+* **Docker history** -> Docker Content Trust
+
+    * In November 2015, birth Docker Content Trust (DCT) technology ```docker trust```
+        * ```export DOCKER_CONTENT_TRUST=1```
+        * ```docker trust sign bombascter/docker-intro-ppt:latest```
+        * ```docker trust inspect --pretty bombascter/docker-intro-ppt:latest```
+
+```bash
+root@k8s:~# docker trust inspect --pretty bombascter/docker-intro-ppt:latest
+
+Signatures for bombascter/docker-intro-ppt:latest
+
+SIGNED TAG          DIGEST                          SIGNERS
+latest              3c273c3be36514a4af2bf54955...   bombascter
+
+List of signers and their keys for bombascter/docker-intro-ppt:latest
+
+SIGNER              KEYS
+bombascter          343a9ec39c74
+
+Administrative keys for bombascter/docker-intro-ppt:latest
+
+  Repository Key:	5e383fe0d79f2ee150e5822c56...
+  Root Key:	e156e14832c094b7ff50c07e713f552ef4...
+```
+---
+
 * **Docker history** -> Docker today
 
     * Docker code writing in Golang - programming language from Google
@@ -186,3 +213,4 @@
 * [Docker labs](https://github.com/docker/labs)
 * [Docker conf 14](https://www.youtube.com/watch?v=_DOXBVrlW78)
 * [Difference between LXC and libcontainer](https://stackoverflow.com/questions/34152365/difference-between-lxc-and-libcontainer)
+* [Old docker roadmap](https://github.com/moby/moby/wiki)
