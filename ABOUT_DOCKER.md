@@ -1,10 +1,26 @@
 # Docker introduction
 
-* Docker history
-    * 
 ---
 
-* Docker concepts
+* Docker history
+    
+    * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
+     who loads and unloads cargo from ships
+    ![dock.jpg](img/dock.jpg)
+    * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety
+    of people, over a long period of time.
+    * Major technologies
+        * kernel namespaces
+        * control groups
+        * union filesystems
+    * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud**
+    * In 2013  dotCloud renamed to **Docker Inc.**
+    * Today Docker is estimated to be about **1BN $**. Last investment was 240M $ from Silicon Valley
+    * Today Docker Inc has somewhere in the region 3000-400 employers
+---
+
+* Docker **concepts**
+
     * **Lightweight**: Containers leverage and share the host kernel, 
     making them much more efficient in terms of system resources than virtual machines.
         * Virtual machine have overhead - operation system. Run slowly. Have big image size. Operating system license required
