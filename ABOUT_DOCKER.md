@@ -31,7 +31,7 @@
 * Docker **architecture**
 ![architecture.jpg](img/architecture.jpg)
     
-    * Daemon (docker engine: cgroups, namespaces, capabilities, netlink, selinux, apparmor)
+    * Daemon (docker engine: cgroups, namespaces, capabilities, netlink, selinux, apparmor, chroot)
         * [Linux Containers LXC](https://en.wikipedia.org/wiki/LXC)
         * libcontainer
         * runc
