@@ -6,7 +6,9 @@
     
     * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
      who loads and unloads cargo from ships
+     
     ![dock.jpg](img/dock.jpg)
+    
     * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety
     of people, over a long period of time.
     * Major technologies
