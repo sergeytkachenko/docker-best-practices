@@ -2,7 +2,7 @@
 
 * Docker history
     * 
-___
+---
 
 * Docker concepts
     * **Build, share, and run** applications with containers
@@ -40,7 +40,7 @@ ___
     * Registry (storage of the images)
 ---
     
-* Dockerfile commands syntax
+* **Dockerfile** commands syntax
 
     * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
     * ```RUN``` ```RUN ls -la .```
@@ -80,25 +80,25 @@ ___
         * [demo - exclude .DS_Store](.dockerignore)
 ---
 
-* Docker run container
+* Docker **run container**
     * binding ports ```docker run -d -p 8000:80 nginx```
     * binding volumes ```docker run -d -v /tmp:/var/www nginx```
     * links ```docker run --link myredis:redis debian env```
 ---
 
-* Docker network
+* Docker **network**
     * ```docker network ls``` ```docker network inspect ...```
     * ```traceroute 8.8.8.8```
 ---
 
-* Debugging build steps of the Dockerfile
+* Debugging **build steps of the Dockerfile**
     * ```docker run -it 7831e2ca1809```
 ---
 
-* Debug running container 
+* Debug **running container**
 ---
 
-* BuildKit
+* **BuildKit**
     * Benchmarks
     * Difference build context
         * ```--mount=type=*```
