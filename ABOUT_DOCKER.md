@@ -53,7 +53,7 @@
 
 * **Docker history** -> Docker Content Trust
 
-    * In November 2015, birth Docker Content Trust ([DCT](https://docs.docker.com/engine/security/trust/content_trust/)) technology ```docker trust```
+    * In November 2015, birth Docker Content Trust ([DCT](https://docs.docker.com/engine/security/trust/content_trust/)) technology
 
 ```bash
 root@k8s:~# docker trust sign bombascter/docker-intro-ppt:latest
