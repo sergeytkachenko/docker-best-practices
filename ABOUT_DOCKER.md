@@ -110,19 +110,29 @@
     * **Dockerfile**
     * **docker hub** - default registry of Docker images
 ---
-    
+
 * Docker **architecture**
 ![architecture.jpg](img/architecture.jpg)
     
     * Daemon (docker engine: cgroups, namespaces, capabilities, netlink, selinux, apparmor, chroot)
         * [Linux Containers LXC](https://en.wikipedia.org/wiki/LXC)
-        * libcontainer
-        * runc
-        * containerd
-    * CLI
-    * Registry (storage of the images)
+        * [libcontainer](https://github.com/docker/libcontainer)
+        * [runc](https://github.com/opencontainers/runc)
+        * [containerd](https://github.com/containerd/containerd)
+    * [CLI](https://github.com/docker/cli)
+    * [Registry (distribution)](https://github.com/docker/distribution) (storage of the images)
 ---
-    
+        
+* Old Docker daemon **architecture**
+
+![old-acrhitecture.jpg](img/old-acrhitecture.jpg)
+---
+        
+* Current Docker daemon **architecture**
+
+![current-acrhitecture.jpg](img/current-acrhitecture.jpg)
+---
+
 * **Dockerfile** commands syntax
 
     * ```FROM``` ```FROM ubuntu:19.04``` [docker hub](https://hub.docker.com/layers/ubuntu/library/ubuntu/19.04/images/sha256-a65d3401e785fbc3192f0046f68e6487134b70ec9ba79a956fecba9122b39378)
