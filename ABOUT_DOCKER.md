@@ -30,43 +30,44 @@
 
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
     * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
-    * In March 2013 dotCloud opened source codes
+    * In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
+    * Docker [debuted in 5 minutes](https://www.youtube.com/watch?v=wW9CAH9nSLs) to the public in Santa Clara at PyCon in 2013
     * In six months, Docker open source repo received 6.7K+ stars on GitHub and 175 contributors
     * In September 2013 dotCloud renamed to **Docker Inc.**
-    * Docker 1.0 was announced in June 2014
+    * Docker 1.0 was announced in June 2014 (stable)
     * At the same time, Docker started moving towards being a complete platform
 ---
 
 * **Docker history** -> The collaboration
 
-    * Red Hat company joined to Docker project in September 2013 and using him in [OpenShift](https://www.openshift.com/) project
+    * On September 19, 2013, Red Hat and Docker announced a collaboration around Fedora,
+     Red Hat Enterprise Linux (RHEL), and [OpenShift](https://www.openshift.com/)
+    * On October 15, 2014, Microsoft announced the integration of the Docker engine into Windows Server,
+     as well as native support for the Docker client role in Windows
+    * In November 2014 Docker container services were announced for the Amazon Elastic Compute Cloud (EC2)
+    * On November 10, 2014, Docker announced a partnership with Stratoscale
+    * On December 4, 2014, IBM announced a strategic partnership with Docker that enables Docker
+     to integrate more closely with the IBM Cloud
     * Google, Amazon and DigitalOcean quickly offered Docker support in their clouds
-    * In October 2014, Microsoft announced that future versions of Windows Server would support Docker
     * In December 2014, DockerCon EU saw the announcement of Docker Swarm and Docker Machine
     * In December 2014, CoreOS announced the development of [rkt](https://coreos.com/rkt/), its own container support tool and
     developing the appc container specification **appc**
+---
+
+* **Docker history** -> The collaboration
+
     * In July 2015, on DockerCon in San Francisco, Solomon Hakes from Docker and Alex Polvy from CoreOS announced
      [OCI](https://www.opencontainers.org/)
     * In July 2015 FreeBSD announces Docker supported by FreeBSD using ZFS
     * In August 2015 Docker and Microsoft have released the Docker Engine "technical preview" for Windows Server
----
-
-* **Docker history** -> Docker Content Trust
-
     * In November 2015, birth Docker Content Trust ([DCT](https://docs.docker.com/engine/security/trust/content_trust/)) technology
-
-```bash
-root@k8s:~# docker trust sign bombascter/docker-intro-ppt:latest
-root@k8s:~# docker push bombascter/docker-intro-ppt:latest
-root@k8s:~# docker trust inspect --pretty bombascter/docker-intro-ppt:latest
-
-Signatures for bombascter/docker-intro-ppt:latest
-
-SIGNED TAG          DIGEST                          SIGNERS
-latest              3c273c3be36514a4af2bf54955...   bombascter
-
-......
-```
+    * A May 2016 analysis showed the following organizations as main contributors to Docker:
+     The Docker team, Cisco, Google, Huawei, IBM, Microsoft, and Red Hat
+    * On June 8, 2016, Microsoft announced that Docker now could be used natively on Windows 10
+    * A January 2017 [analysis](https://www.linkedin.com/pulse/docker-momentum-2016-analysis-michael-mullany) of LinkedIn
+     profile mentions showed Docker presence grew by 160% in 2016
+    * On May 6, 2019, Microsoft announced the second version of Windows Subsystem for Linux (WSL). Docker, Inc.
+     announced that it has started working on a version of Docker for Windows that runs on WSL 2
 ---
 
 * **Docker history** -> Docker today
@@ -207,3 +208,4 @@ latest              3c273c3be36514a4af2bf54955...   bombascter
 * [Docker conf 14](https://www.youtube.com/watch?v=_DOXBVrlW78)
 * [Difference between LXC and libcontainer](https://stackoverflow.com/questions/34152365/difference-between-lxc-and-libcontainer)
 * [Old docker roadmap](https://github.com/moby/moby/wiki)
+* [Debuted docker youtube](https://www.youtube.com/watch?v=wW9CAH9nSLs)
