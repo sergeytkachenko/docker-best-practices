@@ -42,8 +42,8 @@
     ![solomon-hykes.jpg](img/solomon-hykes.jpg)
 
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
-    * Please sea youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
     * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
+    * In Juli 2011 youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
     * In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
     * Docker [debuted in 5 minutes](https://www.youtube.com/watch?v=wW9CAH9nSLs) to the public in Santa Clara at PyCon in 2013
     * In six months, Docker open source repo received 6.7K+ stars on GitHub and 175 contributors
