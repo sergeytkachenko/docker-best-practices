@@ -7,18 +7,18 @@
 
 ![old-cargo](img/old-cargo.jpeg)
 
-* Hand-loading a ship cost **$5.86 a ton** at that time
-* Using containers, it cost only **16 cents a ton** to load a ship, **36-fold savings**
-* The idea of transporting **trucks** on ships was put into practice before World War II
+* Before containerization, goods were usually handled manually as break [bulk cargo](https://en.wikipedia.org/wiki/Break_bulk_cargo)
+* [Malcom McLean](https://en.wikipedia.org/wiki/Malcom_McLean) author of the container shipping revolution
+* McLean knew "A ship earns money only when she's at sea", and based his business on that efficiency
 ---
 
-* **Docker history** -> Container shipping history
+* **Docker history** -> Container shipping history of **1950 year**
 
 ![cargo](img/cargo.jpg)
 
-* [Malcom McLean](https://en.wikipedia.org/wiki/Malcom_McLean) author of the container shipping revolution
+* Hand-loading a ship cost **$5.86 a ton** at that time
+* Using containers, it cost only **16 cents a ton** to load a ship, **36-fold savings**
 * Сontainerization reduced **the time it took to receive goods by 84%**
-
 ---
 
 * **Docker history** -> Container shipping history
