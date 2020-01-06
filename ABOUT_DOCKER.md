@@ -19,17 +19,19 @@
 * Hand-loading a ship cost **$5.86 a ton** at that time
 * Using containers, it cost only **16 cents a ton** to load a ship, **36-fold savings**
 * Сontainerization reduced **the time it took to receive goods by 84%**
+
 ---
 
 * **Docker history** -> The birth of **dotCloud**
-    
-    * [How it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
-    * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
-     who loads and unloads cargo from ships    
-    * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety
-    of people, over a long period of time
+
+![dotcloud-terminal.jpg](img/dotcloud-terminal.jpg)
+
+* dotCloud docs [how it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
+* The world **Docker** comes from a British colloquialism meanings **dock** work **er** - somebody who loads and unloads cargo from ships    
+* Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety of people, over a long period of time
+
 ---
-    
+
 * **Docker history** -> Container shipping history
 
     * Major technologies
@@ -41,7 +43,8 @@
 
 * **Docker history** -> The creator Docker
 
-    ![solomon-hykes-wife.jpg](img/solomon-hykes-wife.jpg)
+![solomon-hykes-wife.jpg](img/solomon-hykes-wife.jpg)
+
 ---
 
 * **Docker history** -> The birth of Docker
