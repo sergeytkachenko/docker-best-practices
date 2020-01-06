@@ -21,13 +21,11 @@
 * Сontainerization reduced **the time it took to receive goods by 84%**
 ---
 
-* **Docker history** -> Container shipping history
+* **Docker history** -> The birth of **dotCloud**
     
+    * [How it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
     * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
-     who loads and unloads cargo from ships
-     
-    ![dock.jpg](img/dock.jpg)
-    
+     who loads and unloads cargo from ships    
     * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety
     of people, over a long period of time
 ---
@@ -242,3 +240,4 @@
 * [Difference between LXC and libcontainer](https://stackoverflow.com/questions/34152365/difference-between-lxc-and-libcontainer)
 * [Old docker roadmap](https://github.com/moby/moby/wiki)
 * [Debuted docker youtube](https://www.youtube.com/watch?v=wW9CAH9nSLs)
+* [Oracle presentation of Docker](https://static.rainfocus.com/oracle/oraclecode18/sess/1513810380873001uIiU/PF/docker-101-ny_1520531065990001vPkT.pdf)
