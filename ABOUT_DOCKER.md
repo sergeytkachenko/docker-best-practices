@@ -22,18 +22,22 @@
 
 ---
 
-* **Docker history** -> The birth of **dotCloud**
+* **Docker history** -> The birth of **dotCloud** of 2008 year
 
 ![dotcloud-terminal.jpg](img/dotcloud-terminal.jpg)
 
-* dotCloud docs [how it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
-* The world **Docker** comes from a British colloquialism meanings **dock** work **er** - somebody who loads and unloads cargo from ships    
-* Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety of people, over a long period of time
+* French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
+* dotCloud [how it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
+    , [pricing](https://web.archive.org/web/20110728102802/https://www.dotcloud.com/pricing/) 
+* In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
+* In Juli 2011 youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
+* In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
 
 ---
 
 * **Docker history** -> Container shipping history
-
+    
+    * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety of people, over a long period of time
     * Major technologies
         * kernel [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)
             * mount UTS PID Network IPC User
@@ -51,10 +55,7 @@
 
     ![solomon-hykes.jpg](img/solomon-hykes.jpg)
 
-    * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
-    * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
-    * In Juli 2011 youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
-    * In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
+    * The world **Docker** comes from a British colloquialism meanings **dock** work **er** - somebody who loads and unloads cargo from ships
     * Docker [debuted in 5 minutes](https://www.youtube.com/watch?v=wW9CAH9nSLs) to the public in Santa Clara at PyCon in 2013
     * In six months, Docker open source repo received 6.7K+ stars on GitHub and 175 contributors
     * In September 2013 dotCloud renamed to **Docker Inc.**
