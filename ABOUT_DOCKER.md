@@ -2,19 +2,23 @@
 
 **Build once, run anywhere**
 
-![trands.png](img/trands.png)
-
 ---
 
-* **Docker history**
+* **Docker history** -> Container shipping history
     
     * The world ```Docker``` comes from a British colloquialism meanings **dock** *work* **er** - somebody
      who loads and unloads cargo from ships
      
     ![dock.jpg](img/dock.jpg)
     
+    * In 1950 year **bulk** and **non-bulk cargo** transported in different ways. Bulk cargo was loaded and unloaded in bags
+    * Сontainerization reduced **the time it took to receive goods by 84%** and **costs by 35%**
     * Modern containers started in the Linux world, and are the product of an immense amount of work from a wide variety
     of people, over a long period of time
+---
+    
+* **Docker history** -> Container shipping history
+
     * Major technologies
         * kernel [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)
             * mount UTS PID Network IPC User
