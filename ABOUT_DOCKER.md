@@ -1,12 +1,20 @@
 # Docker introduction
 
+* **Build once, run anywhere**
+---
+
+* **Docker history** -> Container shipping history
+
 ![old-cargo](img/old-cargo.jpeg)
 
 * The idea of transporting **trucks** on ships was put into practice before World War II
+---
+
+* **Docker history** -> Container shipping history
+
+![cargo](img/cargo.jpg)
+
 * [Malcom McLean](https://en.wikipedia.org/wiki/Malcom_McLean) author of the container shipping revolution
-* **Build once, run anywhere**
-
-
 
 ---
 
