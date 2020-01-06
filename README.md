@@ -1,6 +1,6 @@
 ## Docker Training Presentation
 
-* Docker introduction
+* [Docker introduction](ABOUT_DOCKER.md)
 * Docker best practices
 
 ### Development
