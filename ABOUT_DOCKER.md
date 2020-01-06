@@ -1,5 +1,7 @@
 # Docker introduction
 
+**Build once, run anywhere**
+
 ![trands.png](img/trands.png)
 
 ---
