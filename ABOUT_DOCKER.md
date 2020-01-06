@@ -1,6 +1,12 @@
 # Docker introduction
 
-**Build once, run anywhere**
+![old-cargo](img/old-cargo.jpeg)
+
+* The idea of transporting **trucks** on ships was put into practice before World War II
+* [Malcom McLean](https://en.wikipedia.org/wiki/Malcom_McLean) author of the container shipping revolution
+* **Build once, run anywhere**
+
+
 
 ---
 
@@ -36,6 +42,7 @@
     ![solomon-hykes.jpg](img/solomon-hykes.jpg)
 
     * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
+    * Please sea youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
     * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
     * In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
     * Docker [debuted in 5 minutes](https://www.youtube.com/watch?v=wW9CAH9nSLs) to the public in Santa Clara at PyCon in 2013
