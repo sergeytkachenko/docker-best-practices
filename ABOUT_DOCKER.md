@@ -28,7 +28,7 @@
 
 * French-born American developer Solomon Hykes, San Francisco based technology startup **dotCloud** in 2008 year
 * dotCloud [how it works](https://web.archive.org/web/20130513150938/https://docs.dotcloud.com/firststeps/how-it-works/)
-    , [pricing](https://web.archive.org/web/20110728102802/https://www.dotcloud.com/pricing/) 
+    , [pricing](https://web.archive.org/web/20110728102802/https://www.dotcloud.com/pricing/) , [pricing FAQ](https://web.archive.org/web/20110625011316/http://www.dotcloud.com/pricing/pricing-faq/)
 * In 2010 dotCloud takes part in the program [Y Combinator](https://www.ycombinator.com/) and began to receive serious investments
 * In Juli 2011 youtube video about [dotCloud](https://www.youtube.com/watch?v=QSR7kb9W3kw) and comments
 * In March 2013 dotCloud opened source codes. Initial release March 20, 2013 - version 0.1 (beta)
