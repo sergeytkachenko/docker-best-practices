@@ -209,6 +209,10 @@
     * ```traceroute 8.8.8.8```
 ---
 
+* Debugging **build of the Dockerfile**
+    * `--progress=plain`
+---
+
 * Debugging **build steps of the Dockerfile**
     * ```docker run -it 7831e2ca1809```
 ---
