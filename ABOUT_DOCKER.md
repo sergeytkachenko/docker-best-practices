@@ -113,7 +113,7 @@ Docker Inc and [CoreOs](https://en.wikipedia.org/wiki/Container_Linux)
 
 ### Why docker born?
 
-* Docker - is next step of the **dotcloud evolution**.
+* Docker - is next evolution step of the **dotcloud evolution**.
   For understand this evolution we need understand main concept of the dotcloud.
   What the problems did dotcloud solve?
 
@@ -123,14 +123,14 @@ Docker Inc and [CoreOs](https://en.wikipedia.org/wiki/Container_Linux)
   * [zero-downtime pushes](https://web.archive.org/web/20121104220114/http://docs.dotcloud.com/0.9/firststeps/how-it-works/)
   * Scaling
   * Load balance
-* Why dotcloud want changes?
+* **Why dotcloud want changes**?
   * dotcloud supported **only limited numbers of stacks** (like, php, python, nodejs, mssql etc)
   * dotcloud it is very complicated platform depends of the itself complicated cloud infrastructure
-  * Not possible deploy my application in local laptop or my infrastructure
+  * Not possible run specific application on the my infrastructure or laptop
+* So, Solomon Hykes 
 
 [//]: # (  * Need low-level piece for run anywhere, from laptop to ec2 or any server)
 [//]: # (  * Need scale application, scheduling resources)
-
 
 ---
 
@@ -277,8 +277,8 @@ without any configuration required on the part of the user.
 * [What's happening with docker swarm](https://www.youtube.com/watch?v=xUJy1rnRHE0)
 * [5 years at Docker](https://www.kencochrane.com/2017/03/24/5-years-at-docker/)
 * [from dotcloud to docker](https://jpetazzo.github.io/2017/02/24/from-dotcloud-to-docker/)
-* [](https://container.training/)
-* [](https://us.pycon.org/2016/site_media/media/tutorial_handouts/DockerSlides.pdf)
-* [](https://www.youtube.com/watch?v=3N3n9FzebAA)
+* [container.training](https://container.training/)
+* [DockerSlides.pdf](https://us.pycon.org/2016/site_media/media/tutorial_handouts/DockerSlides.pdf)
+* [dotScale 2013 - Solomon Hykes - Why we built Docker](https://www.youtube.com/watch?v=3N3n9FzebAA)
 * [grandfather of the docker](https://github.com/shykes/cloudlets)
 * [docker logo voting](https://99designs.com/logo-design/contests/create-cool-open-source-project-logo-219415/poll/kl5pe8/done)
